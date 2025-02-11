@@ -7,7 +7,7 @@ function App() {
 
   // this sends a connection request to your socket io server
   // but your backend is not listening to any connection requests yet
-  const socket = io("http://localhost:3000");
+  const socket = io("https://chatappbackend-zra5.onrender.com");
 
   const [message, setMessage] = useState("");
 

@@ -16,7 +16,7 @@ const server = app.listen(3000);
 
 const io = socketio(server, {
     cors: {
-        origin: 'http://localhost:5173',
+        origin: 'https://chatapp-w1le.onrender.com',
     }
 });
 
